@@ -28,22 +28,38 @@ class MyApp extends StatelessWidget {
           ],
         ),
 
-        body:  Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Column(
-            children: [
-              const Text("Portfolio",
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 20,
-                fontWeight: FontWeight.w500
-              ),
-              ),
-              Center(
-                child: Image.asset("assets/malith2.png",
+        body: SingleChildScrollView(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                const Text("Portfolio",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20,
+                  fontWeight: FontWeight.w500
                 ),
-              )
-            ],
+                ),
+                const SizedBox(
+                  height: 50,
+                ),
+                Center(
+                  child: Image.asset("assets/malith2.png",
+                  ),
+                ),
+                //Button
+                Container(
+                  padding:EdgeInsets.all(15),
+                  color: Colors.redAccent,
+                  decoration: BoxDecoration(),
+                  child: Text(
+                    "My Details",
+                   style: TextStyle(color: Colors.white)
+                  ),
+                  )
+              ],
+            ),
           ),
         ) ,
       ),
