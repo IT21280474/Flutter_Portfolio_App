@@ -217,7 +217,117 @@ class MyApp extends StatelessWidget {
                   fontSize: 18,
                   fontWeight: FontWeight.w500,),
                 ),
-            
+
+//Group Projects Page
+                const Text("Online Learning Management System (Group Leader)\n"
+"Use MERN Stack (MongoDB, Express js, React js, Node Js ) and Postmen",
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
+
+                 const SizedBox(
+                    height: 50,
+                  ),
+
+                  const Text("Online Designs Selling App (Group Leader)\n"
+"Use Android Studio,Kotlin,Firebase(Database)",
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
+
+                const SizedBox(
+                    height: 50,
+                  ),
+
+                  const Text("Online Staff Management System (Member)\n"
+"Use OOP concepts to develop this application with Java and MySQL database",
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
+
+
+                const SizedBox(
+                    height: 50,
+                  ),
+
+                  const Text("CarRental Desktop Application (Member)\n"
+"Use HTML , CSS, JavaScript,PHP and MySQL database",
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
+
+//personal Projects page
+              const Text(" Portfolio Web Site\n"
+"Use MERN Stack (MongoDB, Express js, React js, Node Js)",
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
+
+
+                const SizedBox(
+                    height: 50,
+                  ),
+
+                  const Text("  Youtube Clone Frontend\n"
+"Use HTML , Css)",
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
+
+
+                const SizedBox(
+                    height: 50,
+                  ),
+
+                  const Text("  UI/UX Designing\n"
+"ML Creators and web developers company web site\n" 
+"Riyasewena Web Site Redesign",
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
+
+
+                const SizedBox(
+                    height: 50,
+                  ),
+
+                  const Text("   WordPress Web Sites\n"
+"Portfolio web site\n" "Clothing Star Web Site",
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
+
+
+                const SizedBox(
+                    height: 50,
+                  ),
+
+                  
+
               ],
             ),
           ),
