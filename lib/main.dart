@@ -326,7 +326,58 @@ class MyApp extends StatelessWidget {
                     height: 50,
                   ),
 
-                  
+
+                  const Text("Flutter App\n"
+"Portfolio App\n",
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
+
+
+//Volunteering Page
+                const Text("Media Unit of SLIIT (05/2023 - Present)- Sub Commity Member\n"
+                	"Media Unit of SLIIT (04/2022 - Present) Video Editor & Graphics Designer\n"
+		              "MS Club of SLIIT (01/2024 - Present) - Treasurer\n"
+                  "MS Club of SLIIT (01/2023 - Present) - Video Editor,Grphic designer,Developing Team Member\n"
+                  "LEO CLUB of SLIIT (10/2022 - Present) - Video Editor\n"
+                  "IET on Campus SLIIT(06/2023 - Present) - 	Digital Media Crew ,Graphics Designer\n",
+
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
+
+    //footer
+    const SizedBox(
+                    height: 30,
+                  ),
+            Container(
+              height: 2,
+              width: 500,
+              decoration: const BoxDecoration(color: Colors.white30),
+            ),
+            const Text("CONTACT\n",
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
+
+                const Text("Phone - +94 78987335\n"
+                            "Email - malithmadushan5112@gmail.com\n"
+                            "Home Address - Ruksevana,Aluthgedara Waththa, Ovitigala,Mathugama\n",
+                textAlign:TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 18,
+                  fontWeight: FontWeight.w500,),
+                ),
 
               ],
             ),
